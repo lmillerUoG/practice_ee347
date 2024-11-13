@@ -1,4 +1,0 @@
-2024-11-12 20:10:42 - Created dept_info.txt in Departments/HR.
-2024-11-12 20:10:42 - Created dept_info.txt in Departments/IT.
-2024-11-12 20:10:42 - Created dept_info.txt in Departments/Sales.
-2024-11-12 20:11:09 - Added employee Cristiano Ronaldo to Active.
