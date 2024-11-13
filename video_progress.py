@@ -3,11 +3,16 @@ import os
 
 # load the video
 video_path = '/mnt/c/Users/user/year4/ee347/labpractice/input_video.mp4'
+
+# TROUBLESHOOTING
 if not os.path.exists(video_path):
     print("Error: Video file not found at specified path.")
     exit()
+
 output_path = 'output_video.mp4'
 cap = cv2.VideoCapture(video_path)
+
+# TROUBLESHOOTING
 if not cap.isOpened():
     print("Error: Could not open input video.")
     exit()
@@ -21,6 +26,8 @@ total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
 # define the codec and create VideoWriter object
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 out = cv2.VideoWriter(output_path, fourcc, fps, (frame_width, frame_height), isColor=False)
+
+# TROUBLESHOOTING
 if not out.isOpened():
     print("Error: Could not open VideoWriter.")
     exit()

@@ -1,0 +1,15 @@
+
+#### Manually set date/time ###
+
+sudo date -s 'YYYY-MM-DD HH:MM:SS'
+
+
+
+### Manual Configuration for internet ###
+
+navigate to scripts location
+
+execute edumroam-linux-UoG.py
+
+insert credentials
+
