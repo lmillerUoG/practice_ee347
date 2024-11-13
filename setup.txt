@@ -13,3 +13,5 @@ execute edumroam-linux-UoG.py
 
 insert credentials
 
+https://github.com/EE347/challenge-lab-15-00-16-30-lmillerUoG
+
